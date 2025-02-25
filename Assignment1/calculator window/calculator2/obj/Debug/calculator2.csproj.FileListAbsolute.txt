@@ -1,0 +1,10 @@
+C:\Users\Admin\Downloads\软构作业\1\calculator window\calculator2\bin\Debug\calculator2.exe.config
+C:\Users\Admin\Downloads\软构作业\1\calculator window\calculator2\bin\Debug\calculator2.exe
+C:\Users\Admin\Downloads\软构作业\1\calculator window\calculator2\bin\Debug\calculator2.pdb
+C:\Users\Admin\Downloads\软构作业\1\calculator window\calculator2\obj\Debug\calculator2.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\软构作业\1\calculator window\calculator2\obj\Debug\calculator2.Properties.Resources.resources
+C:\Users\Admin\Downloads\软构作业\1\calculator window\calculator2\obj\Debug\calculator2.csproj.GenerateResource.cache
+C:\Users\Admin\Downloads\软构作业\1\calculator window\calculator2\obj\Debug\calculator2.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\软构作业\1\calculator window\calculator2\obj\Debug\calculator2.exe
+C:\Users\Admin\Downloads\软构作业\1\calculator window\calculator2\obj\Debug\calculator2.pdb
+C:\Users\Admin\Downloads\软构作业\1\calculator window\calculator2\obj\Debug\calculator2.Form1.resources
