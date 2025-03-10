@@ -27,12 +27,10 @@ public class Square : IShape
 
     public bool IsValid()=>Side>0;
 }
-
 public class Triangle : IShape
 {
     public double Base{get;set;}
     public double Height{get;set;}
-
     public Triangle(double baseLength,double height)
     {
         Base=baseLength;
@@ -72,14 +70,17 @@ class Program
             if(shapeType=="rectangle")
             {
                 dimensions=new double[2]{random.Next(1,20),random.Next(1,20)};
+                Console.WriteLine($"width:{dimensions[0]},height{dimensions[1]}");
             }
             else if (shapeType=="square")
             {
                 dimensions=new double[1]{random.Next(1,20)};
+                Console.WriteLine($"side:{dimensions[0]}");
             }
             else
             {
                 dimensions=new double[2]{random.Next(1,20),random.Next(1,20)};
+                Console.WriteLine($"base:{dimensions[0]},height:{dimensions[1]}");
             }
             shapes.Add(ShapeFactory.CreateShape(shapeType,dimensions));
         }
@@ -90,6 +91,7 @@ class Program
             {
                 totalArea+=shape.CalculateArea();
             }
+            else Console.WriteLine("invalid!");
         }
         Console.WriteLine($"Total area:{totalArea}");
     }
